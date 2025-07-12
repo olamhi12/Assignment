@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
 }
 main{
     background-color: white;
@@ -84,6 +85,7 @@ input{
  body{
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
  }
  .inputs{
     margin-top: 50px;
