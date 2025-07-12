@@ -66,21 +66,48 @@ input{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(131, 131, 236);;
-    padding-top: 20px;
     color: whitesmoke;
-    /*  */
+    height: 50px;
 }
 .container{
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    /* gap: 50px; */
     width: 400px;
 }
+div li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1rem;
+}
+div button {
+    flex: 1;
+    height: 40px;
+    border-radius: 10px;
+}
+div .CheckTask{
+    color: orange;
+}
+div .deleteTask:hover {
+    color: red;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
  header h1{
     font-size: medium;
     margin: 0;
+ }
+ .container{
+    width: 250px;
+    margin-top: ;
  }
  body{
     justify-content: center;
@@ -105,5 +132,8 @@ input{
  }
  .button{
     top: 20px;
+ }
+ .task{
+    margin-top: 20px;
  }
 }
