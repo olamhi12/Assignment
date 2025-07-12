@@ -81,6 +81,10 @@ input{
     font-size: medium;
     margin: 0;
  }
+ body{
+    justify-content: center;
+    align-items: center;
+ }
  .inputs{
     margin-top: 50px;
     display: flex;
@@ -95,7 +99,7 @@ input{
     margin-top: 40px;
  }
  main{
-    width: 400px;
+    width: 340px;
  }
  .button{
     top: 20px;
